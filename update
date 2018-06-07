@@ -1,0 +1,16 @@
+#!/bin/sh
+
+echo "Lets update your libraries"
+sleep 2
+sudo apt update
+
+echo "It is Time to perform full upgrade to your pc"
+sleep 2
+sudo apt upgrade -y;
+sudo apt dist-upgrade -y;
+
+echo " Cleaning your pc from unecessary files"
+sleep 2
+sudo apt autoremove -y ;
+sudo apt autoclean -y;
+sudo apt clean -y;

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=updater for Debian
+Comment=Simple one clic updater
+Icon=Update.png
+Exec=updatExec
+Terminal=false
+Categories=PackageManager;

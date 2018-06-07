@@ -1,0 +1,15 @@
+#!/bin/sh
+sudo apt install lxterminal;
+
+
+
+sudo mv update updatExec /bin;
+sudo mv updater.desktop /usr/share/applications
+sudo mv Update.png /usr/share/icons/Update.png
+
+sudo chmod +x /usr/share/applications/updater.desktop
+sudo chmod +x /bin/update;
+sudo chmod +x /bin/updateExec;
+
+
+

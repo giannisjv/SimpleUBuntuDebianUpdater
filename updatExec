@@ -1,0 +1,2 @@
+#!/bin/sh
+lxterminal -t "Updater 1.0" -e sudo update
