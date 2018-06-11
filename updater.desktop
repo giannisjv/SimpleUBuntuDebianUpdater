@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=updater for Debian
-Comment=Simple one clic updater
+Comment=Simple one click updater
 Icon=Update.png
 Exec=updatExec
 Terminal=false
