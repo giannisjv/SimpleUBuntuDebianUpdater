@@ -1,15 +1,32 @@
 #!/bin/sh
+echo " This is the debian updater "
+echo " Programmed  By  Giannis Jv "
+echo " Use for all debian-Ubuntu PCs"
+echo " It is simple and requires a"
+echo " Single Click on the icon"
+echo " Is 100% open source"
+sleep 5
 
+echo " -----------------------"
+echo "|                       |"
 echo "Lets update your libraries"
+echo "|                        |"
+echo " ------------------------"
 sleep 2
 sudo apt update
-
+echo " -----------------------"
+echo "|                       |"
 echo "It is Time to perform full upgrade to your pc"
+echo "|                       |"
+echo " -----------------------"
 sleep 2
 sudo apt upgrade -y;
 sudo apt dist-upgrade -y;
-
+echo " -----------------------"
+echo "|                       |"
 echo " Cleaning your pc from unecessary files"
+echo "|                       |"
+echo " -----------------------"
 sleep 2
 sudo apt autoremove -y ;
 sudo apt autoclean -y;
