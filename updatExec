@@ -1,2 +1,2 @@
 #!/bin/sh
-lxterminal -t "Updater 1.0" -e sudo update
+lxterminal -t "Updater for debian 2.0" -e sudo update
