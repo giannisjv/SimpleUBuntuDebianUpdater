@@ -5,6 +5,7 @@ echo " Use for all debian-Ubuntu PCs"
 echo " It is simple and requires a"
 echo " Single Click on the icon"
 echo " Is 100% open source"
+echo "     version  2.0"
 sleep 5
 
 echo " -----------------------"
