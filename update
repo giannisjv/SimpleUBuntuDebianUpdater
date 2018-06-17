@@ -8,26 +8,26 @@ echo " Is 100% open source"
 echo "     version  2.0"
 sleep 5
 
-echo " -----------------------"
-echo "|                       |"
+echo " -------------------------"
+echo "|                         |"
 echo "Lets update your libraries"
-echo "|                        |"
-echo " ------------------------"
+echo "|                         |"
+echo " -------------------------"
 sleep 2
 sudo apt update
-echo " -----------------------"
-echo "|                       |"
+echo " --------------------------------------------"
+echo "|                                            |"
 echo "It is Time to perform full upgrade to your pc"
-echo "|                       |"
-echo " -----------------------"
+echo "|                                            |"
+echo " --------------------------------------------"
 sleep 2
 sudo apt upgrade -y;
 sudo apt dist-upgrade -y;
-echo " -----------------------"
-echo "|                       |"
+echo " --------------------------------------"
+echo "|                                      |"
 echo " Cleaning your pc from unecessary files"
-echo "|                       |"
-echo " -----------------------"
+echo "|                                      |"
+echo " --------------------------------------"
 sleep 2
 sudo apt autoremove -y ;
 sudo apt autoclean -y;
