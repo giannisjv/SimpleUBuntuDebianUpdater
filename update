@@ -14,21 +14,28 @@ echo "Lets update your libraries"
 echo "|                         |"
 echo " -------------------------"
 sleep 2
-sudo apt update
+if [ `sudo apt update | grep -c "All packages are up to date." `  -gt 0 ]
+
+	then 
+		echo "There is Nothing to do here."
+		echo "All packages are up to date."
+	else 
+  
 echo " --------------------------------------------"
 echo "|                                            |"
 echo "It is Time to perform full upgrade to your pc"
 echo "|                                            |"
 echo " --------------------------------------------"
 sleep 2
-sudo apt upgrade -y;
-sudo apt dist-upgrade -y;
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
 echo " --------------------------------------"
 echo "|                                      |"
 echo " Cleaning your pc from unecessary files"
 echo "|                                      |"
 echo " --------------------------------------"
 sleep 2
-sudo apt autoremove -y ;
-sudo apt autoclean -y;
-sudo apt clean -y;
+sudo apt autoremove -y
+sudo apt autoclean -y
+sudo apt clean -y
+  fi
